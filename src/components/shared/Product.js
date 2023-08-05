@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './Product.module.css'
 
 //Functions
-import { shorten } from '../helpers/functions';
+import { shorten } from '../../helpers/functions';
 
 const Product = ({productData}) => {
     return (
