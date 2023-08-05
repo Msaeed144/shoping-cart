@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 //Styles
 import styles from './Product.module.css'
 
@@ -13,7 +13,7 @@ const Product = ({productData}) => {
             <h3>{shorten(productData.title)}</h3>
             <p>{productData.price}</p>
             <div>
-                <a href='#'>details</a>
+                <Link to={`/products/${productData.id}`}>details</Link>
                 <div>
                     <button>Add to Cart</button>
                 </div>
