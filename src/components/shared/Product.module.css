@@ -1,0 +1,12 @@
+.container {
+    padding: 15px;
+    border: 1px solid silver;
+    width: fit-content;
+}
+.container img {
+    width: 200px;
+}
+.container a {
+    color: #385bf8;
+    text-decoration: none;
+}
