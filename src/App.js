@@ -6,7 +6,6 @@ import ProductDetails from './components/ProductDetails';
 
 //Context
 import ProductContextProvider from './context/ProductContextProvider';
-import ProductContextProvider from './context/ProductContextProvider';
 import CartContextProvider from './context/CartContextProvider';
 
 function App() {
