@@ -11,7 +11,7 @@ const Product = ({productData}) => {
         <div className={styles.container}>
             <img src={productData.image} alt='saeed'/>
             <h3>{shorten(productData.title)}</h3>
-            <p>{productData.price}</p>
+            <p>{productData.price} $</p>
             <div>
                 <Link to={`/products/${productData.id}`}>details</Link>
                 <div>

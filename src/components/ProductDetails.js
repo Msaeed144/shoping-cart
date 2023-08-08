@@ -19,10 +19,10 @@ const ProductDetails = (props) => {
             <div>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <p>{category}</p>
+                <p><span>Categori: </span>{category}</p>
                 <div>
-                    <span>{price}</span>
-                    <Link to='/products'>Back to Shop</Link>
+                    <span>{price} $ </span>
+                    <Link to='/products'> Back to Shop</Link>
                 </div>
             </div>
         </div>
