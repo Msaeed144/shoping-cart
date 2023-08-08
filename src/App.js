@@ -3,7 +3,7 @@ import { Switch , Redirect ,Route } from 'react-router-dom/cjs/react-router-dom.
 //Components
 import Store from './components/Store';
 import ProductDetails from './components/ProductDetails';
-
+import Navbar from './components/shared/Navbar';
 //Context
 import ProductContextProvider from './context/ProductContextProvider';
 import CartContextProvider from './context/CartContextProvider';
@@ -12,6 +12,7 @@ function App() {
   return (
     <ProductContextProvider>
       <CartContextProvider>
+        <Navbar/>
         <Switch>
             <Route path='/products/:id'component={ProductDetails} />
             <Route path='/products' component={Store} />
